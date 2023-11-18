@@ -1,4 +1,4 @@
-# freehand_midair_haptic
+# Mid-Air Haptic: Freehand Interaction with the Computer
 In this work, an application is developed to facilitate mid-air haptics as freehand interaction with existing computer system. This application is designed upon the principle of self-haptic feedback. This translates user's hand motion into action.
 
 To develop the interface, python is chosen as the preferred programming language. Python has long been used for machine learning, having extensive libraries for real-time image processing and motion detection. In this work, openCV library alongside Mediapipe framework is used.
