@@ -1,0 +1,10 @@
+# freehand_midair_haptic
+In this work, an application is developed to facilitate mid-air haptics as freehand interaction with existing computer system. This application is designed upon the principle of self-haptic feedback. This translates user's hand motion into action.
+
+To develop the interface, python is chosen as the preferred programming language. Python has long been used for machine learning, having extensive libraries for real-time image processing and motion detection. In this work, openCV library alongside Mediapipe framework is used.
+
+OpenCV is a library of programming functions mainly for real-time computer vision. Originally developed by Intel, it was later supported by Willow Garage, then Itseez. The library is cross-platform and licensed as free and open-source software under Apache License. Opencv is fast, hence used for real time detection. However, it has low precision. Hence, Mediapipe framework is used.
+
+The MediaPipe framework provides lightweight ML models while preserving accuracy. Hence it is used the process the data taken by openCV using the integrated camera of this work setup. Mediapipe Gesture Recognizer task lets the interface recognize hand gestures in real time, and provides the recognized hand gesture results along with the landmarks of the detected hands. This task can be used to recognize specific hand gestures from a user, and invoke application features that correspond to those gestures. This task operates on image data with a machine learning (ML) model, and accepts either static data or a continuous stream. The task outputs hand landmarks in image coordinates, hand landmarks in world coordinates, handedness (left/right hand), and the hand gesture categories of multiple hands. These processing power is leveraged to make a real time hand motion translating interface for freehand interaction with the computer.
+
+The application developed in this work is aimed to use while offline. Hence no network connectivity is required. However, there are software requirements that the machine has python, openCV, mediapipe and relevant libraries installed.
